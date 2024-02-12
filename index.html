@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivram Pradhan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4dd99d6812.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- --------------------------------main------------------------------------ -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>ivram.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Sivram</span> <br>Pradhan.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------about--------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image5.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, This is Sivram Pradhan student at Parul University pursuing Btech(Computer Science and Engineering) and also learning a lot of side stuff like web development and currently i'm learning MERN stack development and will be complete it soon and update it here whenever it is possible.
+                        I aim to be a Fullstack Developer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desigining Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Mobile app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Fresher</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br>Parul University</li>
+                            <li><span>2019-2021</span><br>Gurukrupa Vidya Sankul</li>
+                            <li><span>2007-2019</span><br>Mary Matha Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------services--------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione officia, at omnis cumque esse quos placeat quidem nulla ex maxime, dolorem distinctio! Quia, animi.</p>
+                <a href="http://">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>API website</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores minima eos minus voluptas a, sint sunt officia doloremque! Cupiditate quibusdam eum id laudantium ex.</p>
+                <a href="http://">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>Portfolio Website</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, quia harum. Perspiciatis explicabo saepe exercitationem, debitis voluptates non repellendus, consequatur voluptatibus facilis beatae, praesentium a?</p>
+                <a href="http://">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------portfolio------------------------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/image2.jpg">
+                <div class="layer">
+                    <h3>Crypto Web App</h3>
+                    <p>This app allows you to see the current price of cryptocurrency on live time</p>
+                    <a href="https://stranger-siv.github.io/JS-PROJECTS/PROJECTS%2027/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image3.jpg">
+                <div class="layer">
+                    <h3>Image Search Engine</h3>
+                    <p>This app allows you to search image of the type you need for you work </p>
+                    <a href="https://stranger-siv.github.io/JS-PROJECTS/PROJECTS%2030/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image4.jpg">
+                <div class="layer">
+                    <h3>Text to Speech</h3>
+                    <p>This app allows you to convert text to speech you entered in the text-area</p>
+                    <a href="https://stranger-siv.github.io/JS-PROJECTS/PROJECTS%2020/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://stranger-siv.github.io/JS-PROJECTS/" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------------------------------contact----------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <div class="sub-title">Contact Me</div>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Emil" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sivram. Made by <i class="fa-solid fa-heart"></i> Sivram Pradhan</p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
